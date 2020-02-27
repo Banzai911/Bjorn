@@ -17,11 +17,11 @@ const sassFiles = [
     './src/sass/main.sass',
     './src/sass/media.sass'
 ]
-//Пути файлов CSS
-const cssFiles = [
-    './src/css/main.css',
-    './src/css/media.css'
-]
+// //Пути файлов CSS
+// const cssFiles = [
+//     './src/css/main.css',
+//     './src/css/media.css'
+// ]
 //Пути файлов JS
 const jsFiles = [
     './src/js/lib.js',
@@ -50,10 +50,10 @@ function styles() {
     .pipe(autoprefixer({
         overrideBrowserslist: ['last 2 versions']
     }))
-    //Минификация CSS
-    .pipe(cleanCSS({
-        level: 2
-    }))
+    // //Минификация CSS
+    // .pipe(cleanCSS({
+    //     level: 2
+    // }))
     //Записываем карту
     .pipe(sourcemaps.write('./'))
     //Переносим в папку для стилей
