@@ -1,16 +1,27 @@
 * 
     margin: 0
     padding: 0
-.menu
+    box-sizing: border-box
+.container
+    margin: 0 5em 0 12em
+.header
+
+    margin: 5em 5em 0 12em
+
+.header__menu
     display: flex
+    flex-direction: row
     justify-content: flex-end
-    margin: 3em 5em 0 0
     font-family: 'IBM Plex Sans', serif
+    padding: 0.2em 0 2em 0
+    font-size: 20px
+    text-transform: uppercase
     li 
-        display: flex
+        display: inline
         padding: 0.2em 0 0.2em 0
         font-size: 20px
         text-transform: uppercase
+        list-style: none
  
         a
             text-decoration: none
@@ -20,30 +31,71 @@
             border: 1px solid black
             border-radius: 50px
 
-    list-style: none
 
-    .last
+
+    .header__menu-last
         border: 1px solid grey
         border-radius: 50px
-.logo 
-.logo_title
-        margin: 0 0 0 4.6em
-        font-size: 35px
-        font-weight: bold
-        color: #2b2b2b
+.header__logo 
+    justify-content: start
+.header__logo-title
+    font-size: 35px
+    font-weight: bold
+    color: #2b2b2b
 
-.logo_discription
-        margin: 0.7em 0 0 16.2em
-        font-size: 10px
-        font-weight: bold
-        color: #2b2b2b
-        text-transform: uppercase
-        letter-spacing: .3em
+.header__logo-discription
+    font-size: 10px
+    font-weight: bold
+    color: #2b2b2b
+    text-transform: uppercase
+    letter-spacing: .3em
 
-.logo_image
+.header__logo-image
     width: 5em
     height: 5em
-    margin: 3em 0 1em 10em
+    // margin: 3em 0 1em 10em
     border: 1px solid black
     border-radius: 50%
     background: #2b2b2b
+
+.main__about-section
+    display: flex
+    justify-content: flex-end
+    margin-bottom: 80px
+
+.main__copyrite
+    
+.main__about
+    width: 70%
+    // height: 50%
+    border-left: 5px solid #2b2b2b
+    padding: 30px 0 30px 100px
+
+
+.main__title
+    display: flex
+    width: 80%
+    font-size: 90px
+    text-transform: uppercase
+    font-weight: bold
+    color: #2b2b2b
+    padding-bottom: 30px
+
+.main__description
+    width: 80%
+    font-size: 20px
+
+.main__copyrite
+    writing-mode: tb-rl
+    transform: rotate(180deg)
+    font-size: 12px
+    font-weight: bold
+    margin-right: 20px
+
+.main__social
+    
+    li
+        display: inline
+        list-style: none
+        padding-right: 25px
+        font-size: 25px
