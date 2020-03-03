@@ -52,7 +52,7 @@
   font-weight: bold;
   color: #2b2b2b; }
 
-.header__logo-discription {
+.header__logo-description {
   font-size: 10px;
   font-weight: bold;
   color: #2b2b2b;
@@ -95,7 +95,7 @@
   width: 80%;
   font-size: 20px; }
 
-.main__copyrite {
+.main__copyright {
   -webkit-writing-mode: tb-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: tb-rl;
@@ -301,7 +301,7 @@
       font-size: 15px;
       color: #6f6e6e; }
 
-.footer__copyrite {
+.footer__copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
